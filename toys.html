@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dog's At Play</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+            .mySlides {display:none}
+            .w3-left, .w3-right, .w3-badge {cursor:pointer}
+            .w3-badge {height:13px;width:13px;padding:0}
+    </style>
+</head>
+<body>
+
+<div class="w3-bar w3-orange">
+               <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="work.html" class="w3-bar-item w3-button">Odin At Work</a>
+                <a href="toys.html" class="w3-bar-item w3-button">Odin At Play</a>
+                <a href="about.html" class="w3-bar-item w3-button">About Odin</a>
+</div>    
+</body>
+</html>
+
+<div class="w3-content w3-display-container" style="max-width:384px">
+        <img class="mySlides" src="images/Odin (1).jpg" style="width:100%">    
+        <img class="mySlides" src="images/Odin (6).jpg" style="width:100%">                                  
+            <img class="mySlides" src="images/Odin (11).jpg" style="width:100%">
+            <img class="mySlides" src="images/Odin (12).jpg" style="width:100%">
+    
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+            </div>
+        </div>
+        
+        <center><h3>Odin's Favorite Things!</h3></center>
+        <ul>
+            <li>Mochi Rope Toy</li>
+            <li>Going to the Beach!</li>
+            <li>Playing with Human friends at work</li>
+            <li>Laying in the sun</li>
+            <li>Playing with other dogs</li>
+            <li>Leaning on his favorite people and enjoying pets</li>
+         </ul>
+
+            <script src="script.js"></script>
+        </body>
+        </html>
